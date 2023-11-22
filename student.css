@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+     width: 100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(03.jpg);
+     background-position: center;
+      background-size: cover;
+     height: 100vh;
+     color: white;  
+
+}
+.container {
+    margin: 5% 10%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.details{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.main{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 25%;
+}
+
+.button{
+    text-align: center;
+    border: 0;
+}
+
+.main p{
+    text-align: center;
+}
+.main p:nth-child(1) {
+    font-weight: bold;
+}
+
+.result p{
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    margin: 30px 0 0 30vh;
+}
+
+/* hide buttom */
+@media print {
+    .button {
+        display: none;
+    }
+}
